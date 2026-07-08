@@ -25,13 +25,15 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: output
+          path: output-branch
 
       - run: |
-          mkdir -p output
-          cp dist/github-contribution-grid-snake-dark.svg output/
+          mkdir -p output-branch/output
+          cp dist/github-contribution-grid-snake-dark.svg output-branch/output/
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
+          repository: output-branch
           branch: output
           commit_message: Generate snake
           file_pattern: output/*.svg
