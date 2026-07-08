@@ -177,7 +177,7 @@ Relevant Coursework: Full Stack Development, Database Management Systems, Softwa
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DivyanshNamdev/DivyanshNamdev/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/DivyanshNamdev/DivyanshNamdev/output/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 
 </div>
 
